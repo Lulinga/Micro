@@ -1,0 +1,92 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  body {
+      margin: 0;
+      background-color: #efefef
+  }
+  
+.fondo {
+    background-image: url("fondo-abstracto-capas-colores_23-2148460310.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    border-radius: 20px 20px 20px 20px;
+    padding: 0%;
+    margin: 0%;
+    border: none;
+    height: 20px;
+}
+
+.redes {
+    width: 25px;
+    height: 25px;
+}
+
+  img {
+      width: 400px;
+      height: 400px;
+  }
+  
+  header {
+    background-color: rgba(74, 19, 74, 0.792);
+      color: white;
+      padding: 3rem 2rem;
+  }
+  
+  header h1 {
+      font-size: 3.5rem;
+      text-align: center;
+  }
+
+  header h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .container {
+      width: 400px;
+      margin: 10px auto;
+  }
+  
+  section article {
+      transition: box-shadow 0.3s ease;
+      background-color: #fff;
+      border-radius: 0.5rem;
+      margin: 1px 0;
+      padding: 0.5px 0;
+      cursor: pointer;
+  }
+  
+  section article:hover {
+      box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.5);
+  }
+  
+  section article h2, section article p {
+      margin: 1rem;
+  }
+  
+  footer {
+      background-color: #222;
+      padding: 3rem;
+      color: white;
+  }
+  
+  footer section {
+      float: right;
+  }
+  
+  footer a {
+      transition: color 0.3s ease;
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  footer a:hover {
+      color: cornflowerblue;
+  }
